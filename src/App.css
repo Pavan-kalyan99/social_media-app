@@ -1,0 +1,196 @@
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+*{
+  box-sizing: border-box;
+
+}
+#gradient {
+  /* background: linear-gradient(to bottom, rgb(58, 4, 4), rgb(221, 130, 130), blue); */
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); */
+  background-image: linear-gradient(115deg, #fc00ff, #00dbde);
+
+  
+}
+
+#three{
+  min-height: 50vh;
+
+
+
+ 
+  }
+  ::selection{
+    background-color:aqua;
+  }
+  .motion3{
+    min-height: 100vh;
+  }
+.title{
+  display: flex;
+  margin-top: 10%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* box-shadow: rgba(1, 40, 100, 1.56) 0px 22px 70px 4px; */
+
+}
+
+@media screen and (max-width: 500px) {
+  .stay {
+   font-size: 30px;
+  }
+  #three{
+    min-height: 55vh;
+    color: whitesmoke;
+    padding: 2rem;
+    
+    background-image:
+    linear-gradient(
+      
+      rgba(36, 36, 33, 0.5),
+      rgba(26, 26, 124, 0.5)
+    )
+    /* , url('https://miro.medium.com/v2/resize:fit:1400/1*S8UogculWFLr3lVdLn05MA.jpeg') */
+    ;
+   
+    background-color: rgb(194, 87, 183);
+  }
+}
+/* @media screen and (max-width: 500px) {
+  .stay {
+   font-size: 30px;
+  }
+  #three{
+    min-height: 55vh;
+    color: whitesmoke;
+    padding: 10px;
+    
+    background-image:
+    linear-gradient(
+      
+      rgba(36, 36, 33, 0.5),
+      rgba(26, 26, 124, 0.5)
+    ), url('https://miro.medium.com/v2/resize:fit:1400/1*S8UogculWFLr3lVdLn05MA.jpeg');
+   
+    background-color: rgb(194, 87, 183);
+  }
+} */
+/* bg image */
+.bg-image{
+  width: 100%;
+  
+}
+.user{
+  align-items: center !important;
+  justify-items: center;
+  background-color: aqua;
+  position: absolute;
+
+}
+
+.diff{
+  width: 100%;
+  height: 200px;
+
+}
+.form-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: antiquewhite;
+  background-image: linear-gradient(0deg,rgb(213, 225, 171),rgb(238, 160, 160));
+   height: 100vh;
+  /* margin: 20px;
+  padding: 20px; */
+  /* min-height: 70vh; */
+
+}
+.pageNotFound {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* userPage */
+@media screen and (max-width:480px) {
+  #con{
+width: 100%;
+/* grid-column: 1/9; */
+
+
+  }
+  #left{
+    width: 100%;
+    grid-column: 1/9;
+
+  }
+  #center{
+    width: 100%;
+    grid-column: 1/9;
+
+  }
+  #right{
+    width: 100%;
+    grid-column: 1/9;
+
+  }
+}
+#share{
+background-image:  linear-gradient(43deg,#30CFD0 0%,#330867 100%, blue);
+  /* background-image: linear-gradient(90, rgb(205, 77, 77) 0%,red 46,blue 100); */
+background-clip: text;
+color: transparent;
+}
+/* post images */
+.postImage{
+  mix-blend-mode: darken;
+}
